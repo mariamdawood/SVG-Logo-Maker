@@ -4,7 +4,7 @@
 This Node.js application allows users to generate SVG logos by selecting a shape, choosing colors, and providing text. The application supports three shapes: Triangle, Square, and Circle. Users can interactively input their preferences for shape color, text color, and the text to be displayed.
 
 ## Deployed Application URL / Walkthrough Video
-[alt-text](https://drive.google.com/file/d/17oaIzhYO5CSETpndGDdTTj0a1xTtPepY/view?usp=drive_link)
+[SVG Logo Maker Node.js](https://drive.google.com/file/d/17oaIzhYO5CSETpndGDdTTj0a1xTtPepY/view?usp=drive_link)
 
 ## Screenshot
 N/A
