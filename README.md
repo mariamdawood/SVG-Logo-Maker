@@ -21,8 +21,8 @@ N/A
 ## Installation
 - Clone the repository.
 - Run npm install to install dependencies.
-- Run npm i inquirer@8.2.4 to install inqurier package.
-- Run npm i jest to install jest package.
+- Run npm i inquirer@8.2.4 to install inqurier package for collecting input from the user.
+- Run npm i jest to install jest package for running the unit tests.
 
 ## Usage
 - Execute the application with node index.js.
