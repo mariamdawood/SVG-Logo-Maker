@@ -22,12 +22,13 @@ N/A
 - Clone the repository.
 - Run npm install to install dependencies.
 - Run npm i inquirer@8.2.4 to install inqurier package for collecting input from the user.
-- Run npm i jest to install jest package for running the unit tests.
+- Run npm i jest to install jest package to test the shapes.
 
 ## Usage
-- Execute the application with node index.js.
+- Execute the application with node index.js using node index.js.
 - Follow the prompts to choose a shape, set colors, and input text.
 - The generated logo will be saved as logo.svg in the project directory.
+- Run npm test to test the shapes.
 
 ## Test
 Please follow installation process followed by usage.
