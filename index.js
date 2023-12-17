@@ -9,23 +9,30 @@ function promptUser() {
             type: 'list',
             name: 'shape',
             message: 'Choose a shape:',
-            choices: ['Triangle', 'Square', 'Circle'],
+            choices: ['Triangle', 'Square', 'Circle']
         },
         {
             type: 'input',
             name: 'text',
             message: 'Text: Enter up to three characters:',
-            validate: input => input.length <= 3,
+            validate: input => {
+                if (input.trim() === '') {
+                    return 'Please enter a value.';
+                }
+                return input.length <= 3 || 'Maximum length is 3 characters'
+            }
         },
         {
             type: 'input',
             name: 'shapeColor',
             message: 'Enter shape color (keyword or hexadecimal):',
+            validate: input => input.trim() !== '' || 'Please enter a value.'
         },
         {
             type: 'input',
             name: 'textColor',
             message: 'Enter text color (keyword or hexadecimal):',
+            validate: input => input.trim() !== '' || 'Please enter a value.'
         }
     ]);
 }
