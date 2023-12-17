@@ -4,7 +4,7 @@
 This Node.js application allows users to generate SVG logos by selecting a shape, choosing colors, and providing text. The application supports three shapes: Triangle, Square, and Circle. Users can interactively input their preferences for shape color, text color, and the text to be displayed.
 
 ## Deployed Application URL / Walkthrough Video
-[SVG Logo Maker Node.js](https://drive.google.com/file/d/1DW2O8L0yWBJe0w0BdocRnwd_0dY1vZ8s/view?usp=drive_link)
+[SVG Logo Maker Node.js](https://drive.google.com/file/d/114nwTR1hWIpzbWRrsSBxMYVNF_cNAE_W/view?usp=drive_link)
 
 ## Screenshot
 N/A
@@ -22,13 +22,13 @@ N/A
 - Clone the repository.
 - Run npm install to install dependencies.
 - Run npm i inquirer@8.2.4 to install inqurier package for collecting input from the user.
-- Run npm i jest to install jest package to test the shapes.
+- Run npm i jest to install jest package to test shapes.
 
 ## Usage
 - Execute the application with node index.js using node index.js.
 - Follow the prompts to choose a shape, set colors, and input text.
 - The generated logo will be saved as logo.svg in the project directory.
-- Run npm test to test the shapes.
+- Run npm test to test shapes.
 
 ## Test
 Please follow installation process followed by usage.
